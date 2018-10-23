@@ -384,7 +384,7 @@ html {
 }
 
 body {
-    font-family: 'Exo 2.0 Regular', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     color: black;
     text-align: left;
     font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
@@ -460,4 +460,98 @@ input[type=text], textarea {
 }
 
 /* --------------- /базовые настройки ---------*/
+
+.section-1{
+    min-height: 100vh;
+    /*background: white url("../images/sec1_bg-min.png") center center;*/
+}
+header{
+    height: 116px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-right: 15px;
+}
+.logo a{
+    display: block;
+}
+.header-icon{
+    width: 100px;
+    display: flex;
+    background-color: #2D2D2D;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bg_modal{
+    background-color: #2D2D2D;
+    color: white;
+}
+.modal-my-title{
+    font-size: 2rem;
+}
+.modal-phones i{
+    color: #ff8300;
+    margin-right: 10px;
+}
+.modal-btn-bg{
+    background-color: #ff8300;
+}
+.sec-1-center-text{
+    color: #ffffff;
+    font-family: "Lato-Black", sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Text style for "Мы создаем" */
+    letter-spacing: 4.32px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 0;
+}
+.second-line{
+    padding-left: 10%;
+}
+
+
+/*-------section-2-------*/
+.section-2{
+    min-height: 100vh;
+}
+
+@media all and (max-width: 767px){
+    .sec-1-center-text{
+        font-size: 3rem;
+    }
+}
+@media all and (max-width: 575px){
+    .sec-1-center-text{
+        font-size: 3rem;
+    }
+    .second-line{
+        padding-left: 0;
+    }
+}
+@media all and (max-width: 470px){
+    .sec-1-center-text{
+        font-size: 2.5rem;
+    }
+}
+@media all and (max-width: 400px){
+    .logo a{
+        width: 200px;
+    }
+    .header-icon{
+        height: 40px;
+    }
+}
+@media all and (max-width: 380px){
+    .sec-1-center-text{
+        font-size: 1.9rem;
+    }
+}
 

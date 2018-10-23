@@ -13,10 +13,93 @@
 </head>
 <body>
     <div class="wrapper">
+        <section class="section-1 parallax-window">
+            <header>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header-icon" data-toggle="modal" data-target="#modalPoll">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="29" viewBox="0 0 37 29"><g><g transform="translate(-1835 -58)"><image width="37" height="29" transform="translate(1835 58)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAdCAYAAAAtt6XDAAACWElEQVRYR9WYTYhNYRjHf/98xELRbBSTCKNsCCVDEmIjWbAV8jErSViYrRlFWFFS9hYkqVEWZCQrlJAyyMhnJF+h5tEzzp1Op3POe869d27Hu7z3ed73d//v+/6f570CMLNJwDpgGiD/rMXDgNfANUlfZWbzgevA1BaDpC33FljjUP1AZwWAagi3Hcqlq9T476GuApeAT8BcYBvQUYfEg36ggR1ZuUWU+gNslnQ5PomZjQVOAztLgL0AVkgaNLOjwKG03CJQ+yWdSEs2szHAzYIX5TuwRNLj2lxZYCEon6hN0q8sNcxsE3CxgFoHJB1PqD0eGIj8ceSrENRdSUvzFjSz6cCrANRzYJ6k3wmoU8DeZG4I6r6khQGoOcDTANRhST0JoEyFQ1BD7vSSPuRs3x7gTABqtqRnZrYVWBXFbgQm13vQz0vannHQpwD3gBk5UO8kDZcwM/PYBaHzF1Kqln8S8C34Gbs5s4ALwKLAInckLYugPH9Cs6B8no9AX8w8VwPjQgtElX+9mTnMyI/KyyuqVIG1M0NGVal6wUblTPkNfAA8BF4C7jXeFHr9W5w0vgzypt2+W8A54IqkzzmW4HBbgF1Ae0Zct6QjjfjUE6BL0o0y+2VmXjK6gF5gYiLXC3FHvY7u27RS0pcyQAkFvCx5kXbI+Dgo6VgitlDtWyvJ+/WGhpmdTWlpfkRdwqOY16W2L0lLmCnJpW5omNk+IK3d8YuyvGw/tRt43xDRv+QNQGppAprSeTaBsdwUrXD0ckQwVMV3X3/VXshvhl/Irm2F/kvok/TtLzFlM58tRwbrAAAAAElFTkSuQmCC"/></g></g></svg>
+                </div>
 
-        <h1>Hello</h1>
+                <div class="modal fade right" id="modalPoll" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-full-height modal-right modal-notify bg_modal" role="document">
+                        <div class="modal-content">
+                            <!--Header-->
+                            <div class="modal-header bg_modal">
+                                <p class="heading lead">Связатся с нами</p>
 
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">×</span>
+                                </button>
+                            </div>
 
+                            <!--Body-->
+                            <div class="modal-body">
+                                <div class="text-center">
+                                    <i class="fa fa-file-text-o fa-4x mb-3 animated rotateIn"></i>
+                                    <p>
+                                        <b class="modal-my-title py-3">Остались вопросы?</b>
+                                    </p>
+                                    <p class="pt-2">
+                                        Наш специалист свяжеться с Вами и проконсультирует по всем вопросам.
+                                    </p>
+                                </div>
+                                <hr>
+
+                                <p class="text-center">
+                                    <strong>Напишите нам</strong>
+                                </p>
+                                <!--Basic textarea-->
+                                <div class="md-form">
+                                    <input type="text" id="modal-phone" class="form-control" required>
+                                    <label for="modal-phone">Телефон</label>
+                                </div>
+
+                                <div class="md-form">
+                                    <textarea type="text" id="form7textarea" class="md-textarea form-control" rows="1"></textarea>
+                                    <label for="form7textarea">Комментарий</label>
+                                </div>
+
+                                <div class="md-form modal-phones mt-5">
+                                    <a href="#" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
+                                </div>
+                                <div class="md-form modal-phones">
+                                    <a href="#" class="text-dark"><i class="fa fa-phone"></i> +380-97-97-46-887</a>
+                                </div>
+
+                            </div>
+
+                            <!--Footer-->
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn waves-effect waves-light modal-btn-bg">Send
+                                    <i class="fa fa-paper-plane ml-1"></i>
+                                </button>
+                                <button type="button" class="btn waves-effect bg_modal" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sec-1-center-text">
+                            <p class="first-line">Мы создаем</p>
+                            <p class="second-line">ваш комфорт</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+
+        </section>
 
 
 
@@ -29,6 +112,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
