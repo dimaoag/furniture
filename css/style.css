@@ -461,6 +461,8 @@ input[type=text], textarea {
 
 /* --------------- /базовые настройки ---------*/
 
+
+/*--------------section-1---------------*/
 .section-1{
     min-height: 100vh;
     /*background: white url("../images/sec1_bg-min.png") center center;*/
@@ -518,40 +520,115 @@ header{
 }
 
 
-/*-------section-2-------*/
+/*--------------section-2---------------*/
 .section-2{
     min-height: 100vh;
+    padding-top: 150px;
+}
+.sec-2-title{
+    color: #000000;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 40.01px;
+    letter-spacing: 1.44px;
+    padding: 15px 0;
+}
+.sec-2-right-block a{
+    color: black;
+}
+.sec-2-right-block .active {
+    color: black!important;
+    font-weight: bold!important;
+    background-color: white!important;
+    border-left: 2px solid #e18320!important;
+    border-radius: 0!important;
+}
+.sec-2-carousel-item{
+    z-index: 2;
+    padding: 15px;
+}
+.sec-2-carousel-item img{
+    box-shadow: 4px 7px 11px 2px rgba(0, 0, 0, 0.2);
+}
+.sec-2-carousel-container{
+
+    position: relative;
+}
+.sec-2-carousel{
+}
+.sec-2-carousel .slick-prev:before, .sec-2-carousel .slick-next:before{
+    color: black;
+}
+.sec-2-carousel-arrow-left img, .sec-2-carousel-arrow-right img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.sec-2-carousel-arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    margin-left: -25px;
+    z-index: 3;
+}
+.sec-2-carousel-arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    margin-right: -25px;
+    z-index: 3;
 }
 
+
+
+
+
 @media all and (max-width: 767px){
-    .sec-1-center-text{
-        font-size: 3rem;
-    }
+    /*---------section-1-----------*/
+    /*.sec-1-center-text{*/
+        /*font-size: 3rem;*/
+    /*}*/
+    /*---------section-2-----------*/
+
 }
 @media all and (max-width: 575px){
-    .sec-1-center-text{
-        font-size: 3rem;
-    }
+    /*---------section-1-----------*/
+    /*.sec-1-center-text{*/
+        /*font-size: 3rem;*/
+    /*}*/
     .second-line{
         padding-left: 0;
     }
+    /*---------section-2-----------*/
+
 }
 @media all and (max-width: 470px){
-    .sec-1-center-text{
-        font-size: 2.5rem;
-    }
+    /*---------section-1-----------*/
+    /*.sec-1-center-text{*/
+        /*font-size: 2.5rem;*/
+    /*}*/
+    /*---------section-2-----------*/
+
 }
 @media all and (max-width: 400px){
+    /*---------section-1-----------*/
     .logo a{
         width: 200px;
     }
     .header-icon{
         height: 40px;
     }
+    /*---------section-2-----------*/
+
 }
 @media all and (max-width: 380px){
-    .sec-1-center-text{
-        font-size: 1.9rem;
-    }
+    /*---------section-1-----------*/
+    /*.sec-1-center-text{*/
+        /*font-size: 1.9rem;*/
+    /*}*/
+    /*---------section-2-----------*/
+
 }
 
