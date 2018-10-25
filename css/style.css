@@ -461,6 +461,9 @@ input[type=text], textarea {
 
 /* --------------- /базовые настройки ---------*/
 
+.wrapper{
+    position: relative;
+}
 
 /*--------------section-1---------------*/
 .section-1{
@@ -757,6 +760,96 @@ header{
     letter-spacing: 0.64px;
 }
 
+
+/*--------------section-6---------------*/
+.section-6{
+    padding: 0 0 150px 0;
+}
+.sec-6-slide{
+    /*margin: 15px;*/
+}
+.sec-6-slide .card{
+    box-shadow: none;
+}
+.sec-6-slide .overlay{
+    height: 250px;
+    padding: 10px;
+}
+.sec-6-slide .overlay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 4px 7px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.sec-6-slide .card-title{
+    font-size: 1.2rem;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.sec-6-slider-wrap{
+    position: relative;
+}
+.sec-6-arrow-left, .sec-6-arrow-right{
+    top: 125px;
+}
+
+
+/*--------------section-7---------------*/
+.section-7{
+    padding: 0 0 100px 0;
+}
+.footer-block{
+    margin: 40px 0;
+    border-left: 2px solid #e18320;
+    padding-left: 15px;
+}
+.footer-name{
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+}
+.footer-value{
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.96px;
+    margin: 15px 0 0 0;
+}
+.footer-black-block-wrap{
+    background-color: #292929;
+    color: white;
+    z-index: 2;
+}
+.footer-black-block{
+    min-height: 300px;
+    width: 360px;
+}
+.footer-black-block-title{
+    color: #fefefe;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 52.01px;
+    letter-spacing: 0.96px;
+}
+.footer-black-block-text{
+    color: #fefefe;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 26.01px;
+    letter-spacing: 0.72px;
+    padding: 15px;
+}
+.bg_footer{
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    background-color: #292929;
+    width: 50%;
+    height: 300px;
+}
+
 @media all and (max-width: 1199px){
     /*---------section-1-----------*/
 
@@ -769,6 +862,10 @@ header{
     /*---------section-4-----------*/
 
     /*---------section-5-----------*/
+
+    /*---------section-6-----------*/
+
+    /*---------section-7-----------*/
 
 }
 @media all and (max-width: 991px){
@@ -811,7 +908,20 @@ header{
     .review-username-wrap{
         margin-top: 25px;
     }
+    /*---------section-6-----------*/
 
+    /*---------section-7-----------*/
+    .section-7{
+        padding: 0;
+    }
+    .bg_footer{
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+    }
+    .footer-black-block-wrap{
+        padding: 50px 0;
+    }
 }
 @media all and (max-width: 767px){
     /*---------section-1-----------*/
@@ -833,6 +943,10 @@ header{
 
     /*---------section-5-----------*/
 
+    /*---------section-6-----------*/
+
+    /*---------section-7-----------*/
+
 }
 @media all and (max-width: 575px){
     /*---------section-1-----------*/
@@ -848,6 +962,10 @@ header{
         max-height: 400px;
     }
     /*---------section-5-----------*/
+
+    /*---------section-6-----------*/
+
+    /*---------section-7-----------*/
 
 }
 @media all and (max-width: 400px){
@@ -872,6 +990,10 @@ header{
     }
     /*---------section-5-----------*/
 
+    /*---------section-6-----------*/
+
+    /*---------section-7-----------*/
+
 }
 @media all and (max-width: 380px){
     /*---------section-1-----------*/
@@ -883,6 +1005,10 @@ header{
     /*---------section-4-----------*/
 
     /*---------section-5-----------*/
+
+    /*---------section-6-----------*/
+
+    /*---------section-7-----------*/
 
 }
 

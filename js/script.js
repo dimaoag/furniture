@@ -192,9 +192,44 @@ $(".sec-5-arrow-left").click(function () {
     sec_5_owl.trigger('prev.owl.carousel');
 });
 
+// ----------sec-5-slider--------------//
+
+$('.sec-6-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+    if (!e.namespace)  {
+        return;
+    }
+    var sec_6_carousel = e.relatedTarget;
+}).owlCarousel({
+    items:3,
+    dots: false,
+    loop:true,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        480: {
+            items: 1,
+        },
+        768: {
+            items: 2,
+
+        },
+        992: {
+            items: 3,
+        }
+    },
+});
+
+sec_6_owl = $('.sec-6-slider').owlCarousel();
+$(".sec-6-arrow-right").click(function () {
+    sec_6_owl.trigger('next.owl.carousel');
+});
+$(".sec-6-arrow-left").click(function () {
+    sec_6_owl.trigger('prev.owl.carousel');
+});
 
 
-
+// $('.sec-6-slider .owl-stage div').equalHeights();
 
 
 
