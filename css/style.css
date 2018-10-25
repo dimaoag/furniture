@@ -522,10 +522,9 @@ header{
 
 /*--------------section-2---------------*/
 .section-2{
-    min-height: 100vh;
-    padding-top: 150px;
+    padding: 200px 0 150px 0;
 }
-.sec-2-title{
+.sec-title{
     color: #000000;
     font-size: 2.25rem;
     font-weight: 500;
@@ -582,34 +581,273 @@ header{
 }
 
 
+/*--------------section-3---------------*/
+.section-3{
+    padding: 0 0 150px 0;
+}
+.sec-under-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+.step{
+    opacity: 0.1;
+    color: #000000;
+    font-size: 3.75rem;
+    font-weight: bold;
+    line-height: 24.01px;
+    letter-spacing: 2.4px;
+    text-align: center;
+    padding: 15px 0;
+}
+.sec-3-left-title-wrap{
+    padding: 15px 0;
+}
+.sec-3-left-title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 24.01px;
+    letter-spacing: 0.72px;
+    border-bottom: 2px solid #e18320;
+    width: 100px;
+}
+.sec-3-text{
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 24.01px;
+    letter-spacing: 0.72px;
+    padding-right: 7%;
+}
+.slider-wrap{
+    position: relative;
+}
+.arrows-two{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    z-index: 3;
+}
+.arrows-two div{
+    height: 41px;
+    cursor: pointer;
+}
+.arrow-right{
+    margin-left: 2px;
+}
+.sec-3-image-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec-3-right-block{
+    padding: 10px;
+}
+.sec-3-image-wrap{
+    height: 300px;
+    box-shadow: 4px 7px 10px 2px rgba(0, 0, 0, 0.2);
+}
 
+/*--------------section-4---------------*/
+.section-4{
+    padding: 0 0 150px 0;
+}
+.overlay{
+    position: relative;
+    color: white;
+    height: 100%;
+}
+.sec-4-block-2{
+    max-height: 500px;
+}
+.overlay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.my-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg_rgba{
+    background-color: rgba(0,0,0,.3);
+}
+.sec-4-image-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.96px;
+    text-align: center;
+}
+.sec-4-image-title-2{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+    text-align: center;
+}
+.form-wrap{
+    padding-top: 20px;
+}
+.form-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+.form-text{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.72px;
+    padding-bottom: 5px;
 
+}
+.form-input{
+    margin: 10px 0;
+    width: 100%;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid #b1b1b1;
+    padding-left: 15px;
+}
+.button{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20.01px;
+    letter-spacing: 0.72px;
+    height: 46px;
+    box-shadow: 0 0 7px 9px rgba(255, 131, 0, 0.25);
+    border-radius: 15px;
+    background-color: #ff8300;
+    background-image: linear-gradient(9deg, rgba(225, 131, 32, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.form-two{
+    display: none;
+}
 
+/*--------------section-5---------------*/
+.section-5{
+    padding: 0 0 150px 0;
+}
+.arrows-sec-5{
+    left: 10px;
+}
+.review-username-wrap{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+}
+.review-username-wrap i{
+    padding: 1px;
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.review-text{
+    padding-left: 15px;
+    margin-left: 7px;
+    border-left: 2px solid #e18320;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 24.01px;
+    letter-spacing: 0.64px;
+}
+
+@media all and (max-width: 1199px){
+    /*---------section-1-----------*/
+
+    /*---------section-2-----------*/
+    .sec-title{
+        font-size: 2rem;
+    }
+    /*---------section-3-----------*/
+
+    /*---------section-4-----------*/
+
+    /*---------section-5-----------*/
+
+}
+@media all and (max-width: 991px){
+    /*---------section-1-----------*/
+
+    /*---------section-2-----------*/
+    .sec-2-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-2{
+        padding: 100px 0 100px 0;
+    }
+    /*---------section-3-----------*/
+    .sec-3-right-block{
+        margin-top: 25px;
+    }
+    .sec-3-text{
+        padding-right: 15px;
+    }
+    .sec-3-image-wrap{
+        height: auto;
+    }
+    /*---------section-4-----------*/
+    .form-one{
+        display: none;
+    }
+    .form-two{
+        display: block;
+    }
+    /*---------section-5-----------*/
+    .sec-5-image-block{
+        margin-top: 0;
+    }
+    .arrows-sec-5{
+        top: 10px;
+        left: 100%;
+        transform: translate(-94px, 0);
+    }
+    .review-username-wrap{
+        margin-top: 25px;
+    }
+
+}
 @media all and (max-width: 767px){
     /*---------section-1-----------*/
-    /*.sec-1-center-text{*/
-        /*font-size: 3rem;*/
-    /*}*/
+
     /*---------section-2-----------*/
+    .sec-2-carousel-arrow-left img, .sec-2-carousel-arrow-right img{
+        width: 50px;
+        height: 50px;
+    }
+    .sec-2-carousel-arrow-left{
+        margin-left: -10px;
+    }
+    .sec-2-carousel-arrow-right{
+        margin-right: -10px;
+    }
+    /*---------section-3-----------*/
+
+    /*---------section-4-----------*/
+
+    /*---------section-5-----------*/
 
 }
 @media all and (max-width: 575px){
     /*---------section-1-----------*/
-    /*.sec-1-center-text{*/
-        /*font-size: 3rem;*/
-    /*}*/
     .second-line{
         padding-left: 0;
     }
     /*---------section-2-----------*/
 
-}
-@media all and (max-width: 470px){
-    /*---------section-1-----------*/
-    /*.sec-1-center-text{*/
-        /*font-size: 2.5rem;*/
-    /*}*/
-    /*---------section-2-----------*/
+    /*---------section-3-----------*/
+
+    /*---------section-4-----------*/
+    .sec-4-block-2{
+        max-height: 400px;
+    }
+    /*---------section-5-----------*/
 
 }
 @media all and (max-width: 400px){
@@ -621,14 +859,30 @@ header{
         height: 40px;
     }
     /*---------section-2-----------*/
+    .sec-title{
+        font-size: 1.6rem;
+    }
+    /*---------section-3-----------*/
+    .sec-under-title{
+        font-size: 1.2rem;
+    }
+    /*---------section-4-----------*/
+    .sec-4-image-title{
+        font-size: 1.2rem;
+    }
+    /*---------section-5-----------*/
 
 }
 @media all and (max-width: 380px){
     /*---------section-1-----------*/
-    /*.sec-1-center-text{*/
-        /*font-size: 1.9rem;*/
-    /*}*/
+
     /*---------section-2-----------*/
+
+    /*---------section-3-----------*/
+
+    /*---------section-4-----------*/
+
+    /*---------section-5-----------*/
 
 }
 
