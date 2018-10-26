@@ -1,10 +1,10 @@
 new WOW().init();
 
-$('.parallax-window').parallax({imageSrc: 'images/sec1_bg-min.png'});
+// $('.parallax-window').parallax({imageSrc: 'images/sec1_bg-min.png'});
 
 
-jQuery(".first-line").fitText(1.2, { minFontSize: '30px', maxFontSize: '72px' });
-jQuery(".second-line").fitText(1.2, { minFontSize: '30px', maxFontSize: '72px' });
+jQuery(".first-line").fitText(1.2, { minFontSize: '40px', maxFontSize: '72px' });
+jQuery(".second-line").fitText(1.2, { minFontSize: '40px', maxFontSize: '72px' });
 
 
 
@@ -76,7 +76,6 @@ $(".sec-2-carousel-arrow-left-tab-2").click(function () {
     owl2.trigger('prev.owl.carousel');
 });
 
-
 // ----------tab 3--------------//
 
 $('.sec-2-carousel-tab-3').on('initialized.owl.carousel changed.owl.carousel', function(e) {
@@ -99,7 +98,6 @@ $(".sec-2-carousel-arrow-right-tab-3").click(function () {
 $(".sec-2-carousel-arrow-left-tab-3").click(function () {
     owl3.trigger('prev.owl.carousel');
 });
-
 
 // ----------tab 4--------------//
 
@@ -230,7 +228,71 @@ $(".sec-6-arrow-left").click(function () {
 
 
 // $('.sec-6-slider .owl-stage div').equalHeights();
-
+//
+// $("#my_nanogallery2").nanogallery2({
+//     <!-- ### gallery settings ### -->
+//     thumbnailHeight: '200',
+//     thumbnailWidth: '200',
+//     itemsBaseURL: 'http://iceberg.vn.ua/furniture/images/',
+//     galleryDisplayMode: 'rows',
+//     thumbnailSliderDelay: 2000,
+//     galleryMaxRows: 1,
+//     thumbnailStacks: 2,
+//     thumbnailBorderHorizontal: 0,
+//     thumbnailBorderVertical: 0,
+//     thumbnailGutterWidth: 2,
+//     thumbnailGutterHeight: 2,
+//     thumbnailHoverEffect2:  'thumbnail_scale_1.00_0.95',
+//     galleryMosaic : [
+//
+//         { r: 1, c: 1, w: 3, h: 2 },
+//         { r: 1, c: 4, w: 1, h: 1 },
+//         { r: 1, c: 5, w: 2, h: 1 },
+//         { r: 2, c: 4, w: 2, h: 2 },
+//         { r: 2, c: 6, w: 1, h: 1 },
+//         { r: 3, c: 1, w: 1, h: 1 },
+//         { r: 3, c: 2, w: 2, h: 1 },
+//         { r: 3, c: 6, w: 1, h: 1 },
+//
+//     ],
+//
+//
+//
+//     items: [
+//         { src: 'кр 1.jpg', srct: 'кр 1.jpg',},
+//         { src: 'кр 2.jpg', srct: 'кр 2.jpg',},
+//         { src: 'кр 3.jpg', srct: 'кр 3.jpg',},
+//         { src: 'кр 4.jpg', srct: 'кр 4.jpg',},
+//         { src: 'кр 5.jpg', srct: 'кр 5.jpg',},
+//         { src: 'кр 6.jpg', srct: 'кр 6.jpg',},
+//         { src: 'каф 1.jpg', srct: 'каф 1.jpg',},
+//         { src: 'каф 2.jpg', srct: 'каф 2.jpg',},
+//         { src: 'каф 3.jpg', srct: 'каф 3.jpg',},
+//         { src: 'каф 4.jpg', srct: 'каф 4.jpg',},
+//         { src: 'каф 5.jpg', srct: 'каф 5.jpg',},
+//         { src: 'каф 6.jpg', srct: 'каф 6.jpg',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//         // { src: 'sec1_bg-min.png', srct: 'sec1_bg-min.png',},
+//     ]
+// });
 
 
 
