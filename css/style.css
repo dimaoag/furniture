@@ -391,7 +391,7 @@ body {
     min-height: 100%;
     background-color: #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 0!important;
 }
 
 a, a:visited { /* порядок правил для ссылок имеет значение */
@@ -533,6 +533,12 @@ header{
 .modal-btn-bg{
     background-color: #ff8300;
 }
+.bg_modal_orange{
+    background-color: #ff8300;
+}
+.orange_text{
+    color: #ff8300;
+}
 .sec-1-center-text{
     color: #ffffff;
     font-family: "Lato-Black", sans-serif;
@@ -541,7 +547,8 @@ header{
     text-transform: uppercase;
     /* Text style for "Мы создаем" */
     letter-spacing: 4.32px;
-    min-height: 500px;
+    /*min-height: 500px;*/
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -684,7 +691,21 @@ header{
     line-height: 24.01px;
     letter-spacing: 0.72px;
     border-bottom: 2px solid #e18320;
-    width: 100px;
+}
+.step-text-1{
+    width: 140px;
+}
+.step-text-2{
+    width: 70px;
+}
+.step-text-3{
+    width: 270px;
+}
+.step-text-4{
+    width: 140px;
+}
+.step-text-5{
+    width: 215px;
 }
 .sec-3-text{
     color: #000000;
@@ -961,6 +982,10 @@ a.footer-value{
 }
 @media all and (max-width: 991px){
     /*---------section-1-----------*/
+    .sec-1-center-text{
+        margin: 0;
+        min-height: 80vh;
+    }
 
     /*---------section-2-----------*/
     .sec-2-container{
@@ -985,6 +1010,16 @@ a.footer-value{
     }
     .sec-3-image-wrap{
         height: auto;
+    }
+    .sec-3-slider-item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .arrows-sec-3{
+        top: 37px;
+    }
+    .sec-3-left-block{
+        padding-top: 20px;
     }
     /*---------section-4-----------*/
     .form-one{

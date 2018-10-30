@@ -157,6 +157,7 @@ $('.sec-3-slider').on('initialized.owl.carousel changed.owl.carousel', function(
 }).owlCarousel({
     items:1,
     dots: false,
+    // autoHeight:true,
     loop:true,
 });
 

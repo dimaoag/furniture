@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <section class="section-1 parallax-window">
+        <section class="section-1">
             <header>
                 <div class="logo">
                     <a href="#">
@@ -32,6 +32,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="29" viewBox="0 0 37 29"><g><g transform="translate(-1835 -58)"><image width="37" height="29" transform="translate(1835 58)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAdCAYAAAAtt6XDAAACWElEQVRYR9WYTYhNYRjHf/98xELRbBSTCKNsCCVDEmIjWbAV8jErSViYrRlFWFFS9hYkqVEWZCQrlJAyyMhnJF+h5tEzzp1Op3POe869d27Hu7z3ed73d//v+/6f570CMLNJwDpgGiD/rMXDgNfANUlfZWbzgevA1BaDpC33FljjUP1AZwWAagi3Hcqlq9T476GuApeAT8BcYBvQUYfEg36ggR1ZuUWU+gNslnQ5PomZjQVOAztLgL0AVkgaNLOjwKG03CJQ+yWdSEs2szHAzYIX5TuwRNLj2lxZYCEon6hN0q8sNcxsE3CxgFoHJB1PqD0eGIj8ceSrENRdSUvzFjSz6cCrANRzYJ6k3wmoU8DeZG4I6r6khQGoOcDTANRhST0JoEyFQ1BD7vSSPuRs3x7gTABqtqRnZrYVWBXFbgQm13vQz0vannHQpwD3gBk5UO8kDZcwM/PYBaHzF1Kqln8S8C34Gbs5s4ALwKLAInckLYugPH9Cs6B8no9AX8w8VwPjQgtElX+9mTnMyI/KyyuqVIG1M0NGVal6wUblTPkNfAA8BF4C7jXeFHr9W5w0vgzypt2+W8A54IqkzzmW4HBbgF1Ae0Zct6QjjfjUE6BL0o0y+2VmXjK6gF5gYiLXC3FHvY7u27RS0pcyQAkFvCx5kXbI+Dgo6VgitlDtWyvJ+/WGhpmdTWlpfkRdwqOY16W2L0lLmCnJpW5omNk+IK3d8YuyvGw/tRt43xDRv+QNQGppAprSeTaBsdwUrXD0ckQwVMV3X3/VXshvhl/Irm2F/kvok/TtLzFlM58tRwbrAAAAAElFTkSuQmCC"/></g></g></svg>
                     <p>Связатся с нами</p>
                 </div>
+
                 <div class="modal fade right" id="modalPoll" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                      aria-hidden="true" data-backdrop="false">
                     <div class="modal-dialog modal-full-height modal-right modal-notify bg_modal" role="document">
@@ -83,7 +84,7 @@
 
                             <!--Footer-->
                             <div class="modal-footer justify-content-center">
-                                <button type="button" class="btn waves-effect waves-light modal-btn-bg">Отправить
+                                <button type="button" class="btn waves-effect waves-light modal-btn-bg" data-toggle="modal" data-target="#centralModalSuccess">Отправить
                                     <i class="fa fa-paper-plane ml-1"></i>
                                 </button>
                                 <button type="button" class="btn waves-effect bg_modal" data-dismiss="modal">Отмена</button>
@@ -91,6 +92,7 @@
                         </div>
                     </div>
                 </div>
+
             </header>
 
             <div class="container">
@@ -593,75 +595,119 @@
                 <div class="slider-wrap mt-4">
 
                     <div class="owl-carousel sec-3-slider">
-                        <div class="row">
+                        <div class="row sec-3-slider-item">
                             <div class="col-lg-6 d-flex align-items-center">
                                 <div class="sec-3-left-block">
                                     <p class="step">1 шаг</p>
                                     <div class="sec-3-left-title-wrap">
-                                        <div class="sec-3-left-title">
-                                            Замер
+                                        <div class="sec-3-left-title step-text-1">
+                                            Консультация
                                         </div>
                                     </div>
                                     <div class="sec-3-text">
-                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                                        Мы поможем создать уникальный диван с учетом всех ваших пожеланий, а так же физиологических особенностей таких к примеру как высокий рост, для максимального удобства и долговечности.
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="sec-3-right-block">
                                     <div class="sec-3-image-wrap">
-                                        <img src="images/sec1_bg-min.png" alt="image">
+                                        <img src="images/sec_3_1-min.jpg" alt="image">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row sec-3-slider-item">
                             <div class="col-lg-6 d-flex align-items-center">
                                 <div class="sec-3-left-block">
                                     <p class="step">2 шаг</p>
                                     <div class="sec-3-left-title-wrap">
-                                        <div class="sec-3-left-title">
+                                        <div class="sec-3-left-title step-text-2">
                                             Замер
                                         </div>
                                     </div>
                                     <div class="sec-3-text">
-                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                                        Для того что бы понять максимально допустимый размер дивана, наши специалисты совершенно бесплатно проведут замер дверных проемов и лестничных площадок. Теперь мы можем переходить к выбору обивочного материала. Мы расскажем про все плюсы и минусы каждого материала, и вместе определим наилучший вариант.
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="sec-3-right-block">
                                     <div class="sec-3-image-wrap">
-                                        <img src="images/sec1_bg-min.png" alt="image">
+                                        <img src="images/sec_3_2-min.jpg" alt="image">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row sec-3-slider-item">
                             <div class="col-lg-6 d-flex align-items-center">
                                 <div class="sec-3-left-block">
                                     <p class="step">3 шаг</p>
                                     <div class="sec-3-left-title-wrap">
-                                        <div class="sec-3-left-title">
-                                            Замер
+                                        <div class="sec-3-left-title step-text-3">
+                                            Разработка дизайн проекта
                                         </div>
                                     </div>
                                     <div class="sec-3-text">
-                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                                        Каждый наш проект, абсолютно уникальное изделие, благодаря чему достигается высокий уровень комфорта и премиальности. Ваш диван будет изготовлен в единственном экземпляре, и не будет иметь аналогов.
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="sec-3-right-block">
                                     <div class="sec-3-image-wrap">
-                                        <img src="images/sec1_bg-min.png" alt="image">
+                                        <img src="images/sec_3_3-min.jpg" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row sec-3-slider-item">
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <div class="sec-3-left-block">
+                                    <p class="step">4 шаг</p>
+                                    <div class="sec-3-left-title-wrap">
+                                        <div class="sec-3-left-title step-text-4">
+                                            Изготовление
+                                        </div>
+                                    </div>
+                                    <div class="sec-3-text">
+                                        Качество каркаса дивана напрямую влияет на его долговечность. Мы используем только лучшие породы древесины в сочетании с современными мебельными технологиями. На готовый каркас накладываться наполнение нужной упругости и мягкости, после чего диван обшивается обивкой.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="sec-3-right-block">
+                                    <div class="sec-3-image-wrap">
+                                        <img src="images/sec_3_4-min.jpg" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row sec-3-slider-item">
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <div class="sec-3-left-block">
+                                    <p class="step">5 шаг</p>
+                                    <div class="sec-3-left-title-wrap">
+                                        <div class="sec-3-left-title step-text-5">
+                                            Доставка и установка
+                                        </div>
+                                    </div>
+                                    <div class="sec-3-text">
+                                        Заключительный этап создания дивана. На готовое изделие устанавливаться ножки, после чего он отправляется к владельцу.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="sec-3-right-block">
+                                    <div class="sec-3-image-wrap">
+                                        <img src="images/sec_3_5_2.jpg" alt="image">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="arrows-two">
+                    <div class="arrows-two arrows-sec-3">
                         <div class="arrow-left sec-3-arrow-left">
                             <svg class="arrow-left-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41"><defs><path id="l879a" d="M969 2361v-41h41v41z"/></defs><g><g transform="translate(-969 -2320)"><use fill="#fff" xlink:href="#l879a"/></g><g transform="translate(-969 -2320)"><image width="13" height="23" transform="translate(980 2329)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAXCAYAAADQpsWBAAABV0lEQVQ4T5XTvUvDUBQF8HNj80cIdnfv8O4TBHVw6mgRP3BxURCcRAc3Bx1F0MlJxSWjgqNDJFAhuEgGoYi0m1M7COYZIy/YkLb56tt/Oe/enEcY40gp9wBUqKxh5hMC9gE8lEJ9QMDTt1L1IkSS+QzATgg8KqXqrut+5SENLgBsJYEeJwtlgixkSOZznQDg3ldqWV8pubCBpEajMdFpt68ArAK46/Z6S57n+cMbjlFZEF9vHNBHhhTiBkQrAG6nqtUNy7KCvJ9Os7Xa5I9pdgD4ZBjTjuN8FLUkmomZ1wjQC3j/DcO5ZrOpP5J54kXMCLEeEl0DaBXBgZUz8zYBugWtimlK27Y/0+JGGpGArxXTXEiDqTUqgpmFlULsgugUwEhi7tOQQhyA6BjAi6/UvOu63byWx/Mn4LOv1KKGRY8wwsOwFPovwBEBhwRclkZRopSbRhC8/QFV/qoUtQiJrgAAAABJRU5ErkJggg=="/></g></g></svg>
                         </div>
@@ -703,7 +749,7 @@
                                 <input type="text" data-mask="callback-catalog-phone" class="form-input" name="phone" placeholder="Телефон" required>
                             </div>
                             <div class="form-group">
-                                <button class="btn btn-block button">Записаться на замер</button>
+                                <button class="btn btn-block button" data-toggle="modal" data-target="#centralModalSuccess">Записаться на замер</button>
                             </div>
                         </div>
                     </div>
@@ -769,10 +815,10 @@
                                 <div class="sec-3-left-block">
                                     <div class="review-username-wrap d-flex align-items-center pb-3">
                                         <i class="fa fa-instagram mr-3"></i>
-                                        <p class="review-username">John Macklein 1</p>
+                                        <p class="review-username">Пономарев Денис</p>
                                     </div>
                                     <div class="review-text">
-                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                                        Заказал диван около полугода назад. Спасибо специалистам которые посоветовали обивку – скотгарда. Всем рекомендую данный материал, так как диван становиться устойчивым к жиру, пыли и грязи.
                                     </div>
                                 </div>
                             </div>
@@ -789,10 +835,10 @@
                                 <div class="sec-3-left-block">
                                     <div class="review-username-wrap d-flex align-items-center pb-3">
                                         <i class="fa fa-instagram mr-3"></i>
-                                        <p class="review-username">John Macklein 1</p>
+                                        <p class="review-username">Бахур Александр</p>
                                     </div>
                                     <div class="review-text">
-                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                                        Раньше покупал диваны итальянского производства. Мне казалось что мебель более высоко качество приобрести просто невозможно, но когда я услышал про ........ любопытство взяло вверх, и я оформил заказ диванна в гостиную. Качество сборки ни чем не уступает тем же прославленным итальянцам. Вдобавок диван был собран с учетом всех моих пожеланий. вообщем рекомендую!!
                                     </div>
                                 </div>
                             </div>
@@ -809,10 +855,30 @@
                                 <div class="sec-3-left-block">
                                     <div class="review-username-wrap d-flex align-items-center pb-3">
                                         <i class="fa fa-instagram mr-3"></i>
-                                        <p class="review-username">John Macklein 1</p>
+                                        <p class="review-username">Крепкий Роман</p>
                                     </div>
                                     <div class="review-text">
-                                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                                        Нужен был небольшой диван в детскую. Задача усложнялось тем, что комната небольшая и далеко не каждый диван поместиться. Спасибо мастерам, без каких либо дополнительных платежей, измерили комнату и помогли подобрать очень удобный диван.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="sec-3-right-block sec-5-image-block">
+                                    <div class="sec-3-image-wrap">
+                                        <img src="images/sec1_bg-min.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <div class="sec-3-left-block">
+                                    <div class="review-username-wrap d-flex align-items-center pb-3">
+                                        <i class="fa fa-instagram mr-3"></i>
+                                        <p class="review-username">Романец Людмила</p>
+                                    </div>
+                                    <div class="review-text">
+                                        Спасибо за ортопедический диван. Честно скажу, никогда раньше на таком удобном диване не спала, словно лежишь на облачке =) Вам хочу пожелать счастья и профессиональных успехов
                                     </div>
                                 </div>
                             </div>
@@ -965,6 +1031,42 @@
             </div>
         </section>
         <div class="bg_footer"></div>
+
+
+        <!-- Central Modal Medium Success -->
+        <div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-notify" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header bg_modal">
+                        <p class="heading lead">Спасибо</p>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </button>
+                    </div>
+
+                    <!--Body-->
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <i class="fa fa-check fa-4x mb-3 animated rotateIn orange_text"></i>
+                            <p>В ближайшее время наш менеджер свяжется с вами</p>
+                        </div>
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn bg_modal waves-effect" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+        <!-- Central Modal Medium Success-->
+
+
     </div>
 
 
